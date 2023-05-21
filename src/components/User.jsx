@@ -1,9 +1,9 @@
 import UserInfo from './UserInfo';
 
-const User = ({ user }) => {
+const User = () => {
   return (
     <div>
-      <UserInfo user={user} />
+      <UserInfo />
     </div>
   );
 };
