@@ -1,11 +1,7 @@
 import UserInfo from './UserInfo';
 
 const User = () => {
-  return (
-    <div>
-      <UserInfo />
-    </div>
-  );
+  return <UserInfo />;
 };
 
 export default User;
